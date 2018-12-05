@@ -1,6 +1,6 @@
 'use strict';
 var common = require("./index-common");
-global.moduleMerge(common, exports);
+// global.moduleMerge(common, exports);
 
 function getVideoID(url) {
   var urlObj = common.URL.parseURL(url);
